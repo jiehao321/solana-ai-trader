@@ -1,0 +1,24 @@
+{
+  "name": "polymarket-trading-skill",
+  "version": "1.0.0",
+  "description": "Polymarket trading automation",
+  "main": "index.ts",
+  "scripts": {
+    "check-creds": "bun run scripts/check-creds.ts",
+    "setup-allowances": "bun run scripts/setup-allowances.ts",
+    "check-balance": "bun run scripts/check-balance.ts",
+    "check-holdings": "bun run scripts/check-holdings.ts",
+    "check-orders": "bun run scripts/check-orders.ts",
+    "buy": "bun run scripts/buy.ts",
+    "sell": "bun run scripts/sell.ts",
+    "cancel-orders": "bun run scripts/cancel-orders.ts"
+  },
+  "dependencies": {
+    "@polymarket/clob-client": "^5.2.1",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

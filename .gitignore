@@ -1,0 +1,6 @@
+node_modules/
+.env
+*.log
+wallet.json
+simulation.json
+logs/
